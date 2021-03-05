@@ -25,7 +25,7 @@ public class LoginTestCRM extends BaseClass {
 		logger.pass("Login Success");
 
 	}
-
+/*
 	@Test(priority = 1)
 	public void loginAPP1() {
 
@@ -42,7 +42,7 @@ public class LoginTestCRM extends BaseClass {
 
 		logger.fail("Logout Failed");
 
-	}
+	}*/
 	/*
 	 * //Just for example
 	 * 

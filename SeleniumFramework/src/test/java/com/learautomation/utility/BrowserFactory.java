@@ -10,7 +10,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class BrowserFactory {
 
 	public static WebDriver startApplication(WebDriver driver, String browserName, String appURL) {
-		if (browserName.equals("Chrome")) {
+		if (browserName.equalsIgnoreCase("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browserName.equals("Firefox")) {
