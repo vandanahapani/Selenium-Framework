@@ -24,16 +24,20 @@ public class ExcelDataProvider {
 		}
 	}
 	
+	//get String cell Value using Sheet Index
 	public String getStringData(int sheetIndex,int row, int col)
 	{
 		return wb.getSheetAt(sheetIndex).getRow(row).getCell(col).getStringCellValue();
 	}
 	
+	//get String cell Value using Sheet Name
 	public String getStringData(String sheetName,int row, int col)
 	{
 		return wb.getSheet(sheetName).getRow(row).getCell(col).getStringCellValue();
 	}
 	
+	
+	//get Numeric cell Value using sheet name
 	public Double getNumericData(String sheetName,int row, int col)
 	{
 		return wb.getSheet(sheetName).getRow(row).getCell(col).getNumericCellValue();
