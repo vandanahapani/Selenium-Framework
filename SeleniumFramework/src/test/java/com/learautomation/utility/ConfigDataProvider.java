@@ -27,7 +27,7 @@ public class ConfigDataProvider {
 	public String getBrowser() {
 			return prop.getProperty("Browser");
 	}
-//get test URL
+	//get test URL
 	public String getStagingURL() {
 		return prop.getProperty("qaUrl");
 	}

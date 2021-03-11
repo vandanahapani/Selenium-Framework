@@ -33,6 +33,6 @@ public class BrowserFactory {
 	}
 
 	public static void quitBrowser(WebDriver driver) {
-		driver.quit(); //to close respective browser
+		driver.quit(); // to close respective browser
 	}
 }
